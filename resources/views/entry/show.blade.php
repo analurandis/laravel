@@ -13,15 +13,18 @@
 
 
 				<div class="jumbotron">
+					<!--
 					<div class="col-md-2 navbar-right">
 					<a class="btn btn-default navbar-right btn-warning" {{link_to_action('EntryController@edit','Editar',$post->id)}}</a>
 					</div>
+					
 					<div class="col-md-2 navbar-right">	
 				
 					 {{ Form::open(array('route' => array('entry.destroy', $post->id), 'method' => 'delete')) }}
        					 <button type="submit" class="btn btn-default navbar-right btn-danger">Delete</button>
     				 {{ Form::close() }}
 					</div>
+					-->
 					<h2>
 						<div class="btn-group">
 				 			Titulo: {{$post->title}}
